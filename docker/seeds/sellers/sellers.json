@@ -1,0 +1,61 @@
+[{
+  "_id": {
+    "$binary": {
+      "base64": "ABnWr7etRPKqpwGH6PABVA==",
+      "subType": "04"
+    }
+  },
+  "UserID": {
+    "$binary": {
+      "base64": "hO2xf7GlSEmXHL/RMUzp6A==",
+      "subType": "04"
+    }
+  },
+  "createdAt": {
+    "$date": "2020-07-27T19:53:23.473Z"
+  },
+  "updatedAt": {
+    "$date": "2020-07-27T19:53:23.473Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$binary": {
+      "base64": "C1ObkU+7QgqONTkPCl+6kw==",
+      "subType": "04"
+    }
+  },
+  "UserID": {
+    "$binary": {
+      "base64": "2LgtR4A5RmW9AG7lXJADiQ==",
+      "subType": "04"
+    }
+  },
+  "createdAt": {
+    "$date": "2020-06-24T22:32:18.773Z"
+  },
+  "updatedAt": {
+    "$date": "2020-06-24T22:32:18.773Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$binary": {
+      "base64": "GoyheuXYRny9HA1qMa/Y6w==",
+      "subType": "04"
+    }
+  },
+  "UserID": {
+    "$binary": {
+      "base64": "pYOAVCXmTUi9YvlMHvFi1g==",
+      "subType": "04"
+    }
+  },
+  "createdAt": {
+    "$date": "2020-06-23T19:12:48.387Z"
+  },
+  "updatedAt": {
+    "$date": "2020-06-23T19:12:48.387Z"
+  },
+  "__v": 0
+}]
