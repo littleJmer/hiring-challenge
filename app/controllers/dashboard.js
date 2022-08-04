@@ -1,8 +1,14 @@
+const { models } = require("../db/index");
+const MUUID = require('uuid-mongodb');
+
 const dashboardController = {
 
     mostPopularProducts: async function (req, res, next) {
         try {
-            return res.json({ "message": "its working!" });
+
+            const data = await models.Transactions.find();
+
+            return res.json({ data });
         } catch (error) {
             next(error);
         }

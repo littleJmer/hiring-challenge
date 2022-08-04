@@ -1,5 +1,6 @@
 const express = require('express');
 const { router } = require('./routes/index');
+const { dbConnect } = require("./db/index");
 
 const app = express();
 const PORT = 3000;
@@ -18,6 +19,7 @@ app.use((req, res, next) => {
     next();
 });
 
+dbConnect();
 router(app);
 
 // error-handling middleware
