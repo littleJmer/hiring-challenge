@@ -3,7 +3,7 @@ const { router } = require('./routes/index');
 const { dbConnect } = require("./db/index");
 
 const app = express();
-const PORT = 3000;
+const PORT = 8080;
 
 // parse requests of content-type - application/json
 app.use(express.json());

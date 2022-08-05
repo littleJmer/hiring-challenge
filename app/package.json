@@ -4,17 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon index.js"
+    "dev": "nodemon index.js",
+    "start": "node index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.1",
-    "mongoose": "^6.5.1",
-    "uuid": "^8.3.2",
-    "uuid-mongodb": "^2.5.1"
+    "express": "4.18.1",
+    "mongoose": "5.13.14",
+    "uuid-mongodb": "2.5.1"
   },
   "devDependencies": {
-    "nodemon": "^2.0.19"
+    "nodemon": "2.0.19"
   }
 }

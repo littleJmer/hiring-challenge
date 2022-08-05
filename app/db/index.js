@@ -3,10 +3,13 @@ const fs = require("fs");
 const path = require("path");
 
 const dbConnect = () => {
-    mongoose.connect('mongodb://localhost:27017/gbgdev?readPreference=primary&directConnection=true&ssl=false', function (err) {
-        if (err) throw err;
-        console.log('DB Successfully connected');
-    });
+    mongoose.connect(
+        'mongodb://mongo:27017/gbgdev?readPreference=primary&directConnection=true&ssl=false',
+        { useNewUrlParser: true, useUnifiedTopology: true },
+        function (err) {
+            if (err) throw err;
+            console.log('DB Successfully connected');
+        });
 }
 
 const basename = path.basename(__filename);
