@@ -1,9 +1,13 @@
 const express = require('express');
+const cors = require('cors');
 const { router } = require('./routes/index');
 const { dbConnect } = require("./db/index");
 
 const app = express();
 const PORT = 8080;
+
+// cors configuration
+app.use(cors({ origin: '*' }));
 
 // parse requests of content-type - application/json
 app.use(express.json());
