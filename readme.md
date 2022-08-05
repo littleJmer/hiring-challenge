@@ -10,4 +10,4 @@ http://localhost:8081
 
 You should be able to see the dashboard
 
-:tw-1f37b:
+🍻
